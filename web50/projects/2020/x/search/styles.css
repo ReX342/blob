@@ -1,0 +1,22 @@
+.center {
+    text-align: center;
+}
+.topright {
+    text-align: right;    
+}
+h4 {
+    color: #d93025
+}
+.left {
+    margin-left: 50px;
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.fill {
+    text-align: justify;
+}
+.filler {
+    flex-grow: 1;
+}

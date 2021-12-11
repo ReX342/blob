@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+        @media (max-width: 800px) { 
+        .hidden-on-smallscreen {
+            display: none;
+        }
+        }
+        .container {
+            width: 100%;
+            margin: 0px;
+        }
+        .row {
+            width: 100%;
+        }
+        .first {
+            flex-basis: 400px;
+        }
+        .left {
+            text-align: left;
+        }
+    </style>
+    <body>
+    <div class="topright"> <a href="image search.html">Image Search<a>
+    <br><a href="index.html">Google Search<a>
+    </div>
+
+    <img src='https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg'>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+        <h4>Advanced Search</h4>
+        </div>
+        <div class="col-6">
+
+        </div>
+        <div class="col-3 hidden-on-smallscreen">
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<h2>
+Find pages with...
+</h2>
+<form action="https://google.com/search?">
+    <div class="row">
+        <div class="left first">    
+            “all these words:”
+        </div>
+        <div class="col-6 fill">
+        <input type="text" name="as_q">
+        </div>
+        <div class="col3 hidden-on-smallscreen">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="left first">
+        “this exact word or phrase:”
+        </div>
+        <div class="col-6">
+        <input type="text" name="as_epq">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="left first">
+        “any of these words:”
+        </div>
+        <div class="col-6">
+        <input type="text" name="as_oq">
+        </div>
+    </div>
+
+    <div class="row">
+        <div = class= "left first">
+        “none of these words:” 
+        </div>
+        <div class="col-6">
+        <input type="text" name="as_eq">
+        </div>
+    </div>
+
+    <div class="row">
+        <div = class= "left first">
+        Numbers ranging from
+        </div>
+        <div class="col-6">
+        <input type="text" name="as_nlo"> to <input type="text" name="as_nhi">
+        </div>
+    </div>
+
+    <div class="right">
+    <input value="Advanced Search" type="submit" button type="button" class="btn btn-primary">
+    </div>
+    </div>
+
+</form>
+</div>
+
+    </body>
+</html>
